@@ -77,7 +77,7 @@ nav ul li a:hover {
 .subcontainer {
   grid-area: showinf;
   display: grid;
-  grid-template-columns: 5fr 1fr;
+  grid-template-columns: 4fr 1fr;
   grid-template-areas:
     "showcase  sub-box-a"
     "showcase  sub-box-b"
