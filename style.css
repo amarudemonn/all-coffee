@@ -25,7 +25,8 @@ h3 {
 
 /* Website Grid */
 .container {
-  margin: 1rem;
+  width: 80%;
+  margin: auto;
   display: grid;
   grid-template-areas:
     "header"
@@ -42,6 +43,7 @@ header {
   grid-area: header;
   text-align: center;
   font-size: 2rem;
+  padding-top: 1rem;
 }
 
 /* Nav */
@@ -199,12 +201,17 @@ nav ul li a:hover {
 footer {
   grid-area: footer;
   text-align: center;
-  padding: 1rem;
+  padding-bottom: 2rem;
   font-size: 2rem;
 }
 
 /* Media Queries */
 @media (max-width: 700px) {
+  .container {
+    width: 100%;
+    margin: 0;
+  }
+
   nav ul,
   .subcontainer {
     grid-template-columns: 1fr;
