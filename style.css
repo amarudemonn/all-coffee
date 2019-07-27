@@ -43,7 +43,8 @@ header {
   grid-area: header;
   text-align: center;
   font-size: 2rem;
-  padding-top: 1rem;
+  padding: 1rem;
+  line-height: 1;
 }
 
 /* Nav */
@@ -55,7 +56,7 @@ nav ul {
   list-style-type: none;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 0.6rem;
+  grid-gap: 1rem;
   text-align: center;
 }
 
