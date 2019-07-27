@@ -25,8 +25,7 @@ h3 {
 
 /* Website Grid */
 .container {
-  width: 80%;
-  margin: auto;
+  margin: 1rem;
   display: grid;
   grid-template-areas:
     "header"
