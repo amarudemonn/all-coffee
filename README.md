@@ -1,2 +1,2 @@
 # all-coffee
-A fake website for a coffee cafe.
+A fake website for a coffee cafe
